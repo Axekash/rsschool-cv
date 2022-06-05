@@ -17,3 +17,37 @@ I like write code, exploring new possibilities in front-end development, I also 
 My strengths are perseverance, problen sloving, fast learning.
 
 I want to gain knowledge and skills for employment in a big company, development in it, and launching my projects.
+
+## My skills
+* HTML
+* CSS
+* Git & GitHub
+* Editors: VSCode
+* Figma
+* My purposefulness
+
+## Code example
+
+```
+function head(head) {
+ let number = head.slice(0, 1);
+  let num = number.join();
+ return Number(num);
+};
+
+function tail(tail) {
+  let num = tail.slice(1);
+  return num;
+};
+
+function init(init) {
+  let num = init.slice(0, -1);
+  return num;
+};
+
+function last(last) {
+  let number = last.slice(-1);
+  let num = number.join();
+  return Number(num);
+};
+```
