@@ -51,3 +51,25 @@ function last(last) {
   return Number(num);
 };
 ```
+## My education
+
+* Brest state technical university
+    * Faculty of Innovation, Management and Finance
+* Udemy
+    * Web-Development(in progress)
+    * Java Script (in progress)
+* RS-School
+    *JS development
+* Books
+
+## My Expirience
+
+* Work in construction organization
+* Study project by courses Udemy
+* Study in rsschool
+
+## My Languages
+
+* Russian - native speaker;
+* Belarussian - native speaker;
+* English - A1 (beginner)
