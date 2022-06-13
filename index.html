@@ -5,17 +5,129 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./fonts.css">
     <title>My CV</title>
 </head>
 <body>
-    <section>
+    <header class="header">
         <div class="container">
-            <h1>Aliaksandr Kuchutkou</h1>
-            <h2>Junior front-end developer</h2>
-            <img src="avatar.jpg" alt="my_avatar">
+            <div class="header_wrapper">
+                <div class="column">
+                    <div class="avatar">
+                        <img src="./img/avatar.jpg" alt="my_avatar">
+                    </div>
+                </div>
+                <div class="column_main">
+                    <h1 class="name">Aliaksandr Kuchutkou</h1>
+                    <h2 class="spec">Junior front-end developer</h2>
+                </div>
+            </div>
         </div>
+    </header>
 
-    </section>
+    <main>
+        <div class="container">
+            <section class="level">
+                <div class="column">
+                    <div class="column_contacts">
+                        <h2>My contacts</h2>
+                        <ul>
+                            <li>Location: Minsk, Belarus</li>
+                            <li>E-mail: kashim007@mail.ru</li>
+                            <li>Phone: +375-25-925-15-25</li>
+                            <li>GitHub: https://github.com/Axekash</li>
+                        </ul>
+                    </div>
+                    <div class="column_skills">
+                        <h2>My skills</h2>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Git & GitHub</li>
+                            <li>Editors: VSCode</li>
+                            <li>Figma</li>
+                            <li>My purposefulness</li>
+                        </ul>
+                    </div>
+                    <div class="column_education">
+                        <h2>My education</h2>
+                        <ul>
+                            <li>Brest state technical university</li>
+                            <li>Udemy course</li>
+                            <li>RS-School "JS development"</li>
+                            <li>Books</li>
+                        </ul>
+                    </div>
+                    <div class="column_lang">
+                        <h2>My languages</h2>
+                        <ul>
+                            <li>Russian - native speaker;</li>
+                            <li>Belarussian - native speaker;</li>
+                            <li>English - A1 (beginner)</li>
+                        </ul>
+                    </div>
+                </div>
+               
+
+                <div class="column_main">
+                    <div class="column_main_about">
+                        <h2>About me</h2>
+                        <p>I am 31 years old, work as civil engeneer (estimate engineer). I want to change my current job for a more promissing one.
+                            I like write code, exploring new possibilities in front-end development, I also want to learn how to write backend code.
+                            My strengths are perseverance, problen sloving, fast learning.
+                            I want to gain knowledge and skills for employment in a big company, development in it, and launching my projects.</p>
+                    </div>
+                    <div class="column_main_code">
+                        <h2>Code example</h2>
+                            <p>
+                                <code>
+                                    function fib(number) { <br>
+                                        let result; <br>
+                                        let count = 0; <br>
+                                        let arr = []; <br>
+                                        <br>
+                                        if (typeof number !== 'number' || number <= 0 || !Number.isInteger(number)) { <br>
+                                           return result = ''; <br>
+                                        } <br>
+                                        <br>
+                                        for(let i = 1; i <= number; i++) { <br>
+                                            if (i <= 2) { <br>
+                                                count = i - 1; <br>
+                                                arr[i - 1] = count; <br>
+                                            } else { <br>
+                                                arr[i - 1] = arr[i - 3] + arr[i - 2]; <br>
+                                            } <br>
+                                        } <br>
+                                        <br>
+                                        result = arr.join(' '); <br>
+                                        return result; <br>
+                                    } <br>
+
+                                </code>
+
+                            </p>
+                    </div>
+                    <div class="column_main_expirience">
+                        <h2>Work Examples</h2>
+                        <div class="column_main_expirience_wrapper">
+                            <div class="column_main_expirience_wrapper_card">
+                                <a href="https://axekash.github.io"> <img src="./img/Uber.jpg" alt="photo_site_uber"></a>
+                               
+                                <h3> <a href="https://axekash.github.io"> Uber</a></h3>
+                            </div>
+                            <div class="column_main_expirience_wrapper_card">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+ 
+
+
+
 
 </body>
 </html>

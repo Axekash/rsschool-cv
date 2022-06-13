@@ -1,5 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Oxygen-Light;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    background-color: antiquewhite;
+}
+
+h2{
+    font-family: Lobster-Regular;
+    font-size: 40px;
+    text-align: center;
+}
+p {
+    font-size: 20px;
+}
+.header_wrapper {
+    display: flex;
+    border-bottom: 10px solid orange;
+
+}
+.avatar {
+    height: 300px;
+    text-align: center;
+
+}
+.avatar img {
+    height: 100%;
+}
+.column {
+    width: 25%;
+    padding: 30px;
+    background-color: #708090;
+}
+.column_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    background-color: #87CEFA;
+    border-left: 20px solid orange;
+}
+.name {
+    text-align: center;
+    font-family: Lobster-Regular;
+    font-size: 48px;
+}
+.spec {
+    text-align: center;
+    font-family: Lobster-Regular;
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+.level {
+    display: flex;
+}
+
+.column_contacts {
+    margin: 20px;
+
+}
+.column_contacts ul li {
+    font-size: 18px;
+}
+.column_contacts h2 {
+    margin: 20px;
+    margin-top: 0px;
+}
+
+.column_main_about, .column_main_code, .column_main_expirience {
+    padding: 30px;
+}
+
+.column_main_expirience_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.column_main_expirience_wrapper_card {
+    width: 350px;
+    height: 213px;
+}
+.column_main_expirience_wrapper_card img {
+    width: 100%;
+
 }
