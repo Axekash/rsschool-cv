@@ -9,8 +9,23 @@
     <title>My CV</title>
 </head>
 <body>
-    <header class="header">
+    <nav>
         <div class="container">
+            <div class="navigation_wrapper">
+                <ul>
+                    <li> <a href="#contacts">My contacts</a> </li>
+                    <li><a href="#skills">My skills</a></li>
+                    <li><a href="#education">My education</a></li>
+                    <li><a href="#languages">My languages</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#code">Code example</a></li>
+                    <li><a href="#work">Work Examples</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="header">
+                <div class="container">
             <div class="header_wrapper">
                 <div class="column">
                     <div class="avatar">
@@ -30,7 +45,7 @@
             <section class="level">
                 <div class="column">
                     <div class="column_contacts">
-                        <h2 class="column_headers">My contacts</h2>
+                        <h2 class="column_headers" id="contacts">My contacts</h2>
                         <ul>
                             <li> <a href="https://www.google.com/maps/place/Минск/@53.8846196,27.5233294,12z/data=!3m1!4b1!4m5!3m4!1s0x46dbcfd35b1e6ad3:0xb61b853ddb570d9!8m2!3d53.9006024!4d27.5589681?hl=ru">Location: Minsk, Belarus</a> </li>
                             <li> <a href="mail.ru">E-mail: kashim007@mail.ru</a></li>
@@ -39,7 +54,7 @@
                         </ul>
                     </div>
                     <div class="column_skills">
-                        <h2 class="column_headers">My skills</h2>
+                        <h2 class="column_headers" id="skills">My skills</h2>
                         <ul>
                             <li>HTML</li>
                             <li>CSS</li>
@@ -50,7 +65,7 @@
                         </ul>
                     </div>
                     <div class="column_education">
-                        <h2 class="column_headers">My education</h2>
+                        <h2 class="column_headers" id="education">My education</h2>
                         <ul>
                             <li>Brest state technical university</li>
                             <li>Udemy course</li>
@@ -59,7 +74,7 @@
                         </ul>
                     </div>
                     <div class="column_lang">
-                        <h2 class="column_headers">My languages</h2>
+                        <h2 class="column_headers" id="languages">My languages</h2>
                         <ul>
                             <li>Russian - native speaker;</li>
                             <li>Belarussian - native speaker;</li>
@@ -71,14 +86,14 @@
 
                 <div class="column_main">
                     <div class="column_main_about">
-                        <h2 class="column_main_header">About me</h2>
+                        <h2 class="column_main_header" id="about">About me</h2>
                         <p>I am 31 years old, work as civil engeneer (estimate engineer). I want to change my current job for a more promissing one.
                             I like write code, exploring new possibilities in front-end development, I also want to learn how to write backend code.
                             My strengths are perseverance, problen sloving, fast learning.
                             I want to gain knowledge and skills for employment in a big company, development in it, and launching my projects.</p>
                     </div>
                     <div class="column_main_code">
-                        <h2 class="column_main_header">Code example</h2>
+                        <h2 class="column_main_header" id="code">Code example</h2>
                             <p>
                                 <code>
                                     <pre>
@@ -108,7 +123,7 @@ function fib(number) {
 </p>
                     </div>
                     <div class="column_main_expirience">
-                        <h2 class="column_main_header">Work Examples</h2>
+                        <h2 class="column_main_header" id="work">Work Examples</h2>
                         <div class="column_main_expirience_wrapper">
                             <div class="column_main_expirience_wrapper_card">
                                 <a href="https://axekash.github.io"> <img src="./img/Uber.jpg" alt="photo_site_uber"></a>
