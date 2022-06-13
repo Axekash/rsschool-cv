@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Oxygen-Light;
+    scroll-behavior: smooth;
+    
+}
+body {
+    background-color: orange;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2{
+    font-family: Lobster-Regular;
+    font-size: 40px;
+    text-align: center;
+}
+p {
+    font-size: 20px;
+}
+
+.navigation_wrapper {
+    width: 100%;
+    height: 84px;
+    display: grid;
+    background-color: #708090;
+    border-bottom: 10px solid orange;
+}
+.navigation_wrapper ul{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation_wrapper ul li{
+    display: block;
+    font-family: Lobster-Regular
+
+}
+.navigation_wrapper ul li a{
+    font-family: Lobster-Regular;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.navigation_wrapper ul li :hover{
+    color: orange;
+}
+
+
+
+
+
+
+.header_wrapper {
+    display: flex;
+    border-bottom: 10px solid orange;
+
+}
+.avatar {
+    height: 300px;
+    text-align: center;
+
+}
+.avatar img {
+    height: 100%;
+}
+.column {
+    width: 25%;
+    padding: 25px;
+    background-color: #708090;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.column_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    background-color: #87CEFA;
+    border-left: 20px solid orange;
+    padding: 30px;
+}
+.name {
+    text-align: center;
+    font-family: Lobster-Regular;
+    font-size: 48px;
+}
+.spec {
+    text-align: center;
+    font-family: Lobster-Regular;
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+.level {
+    display: flex;
+}
+
+.column_contacts, .column_skills, .column_education, .column_lang {
+    margin: 15px;
+
+}
+.column_contacts ul li {
+    font-size: 18px;
+}
+.column_contacts ul li a{
+    color: black;
+}
+.column_contacts ul li :hover{
+    color: orange;
+}
+.column_headers {
+    margin: 15px;
+    margin-top: 0px;
+}
+
+.column_main_header {
+    margin: 15px;
+    margin-top: 0px;
+}
+
+.column_main_about, .column_main_code, .column_main_expirience {
+    padding-bottom: 30px;
+}
+
+.column_main_expirience_wrapper {
+    display: flex;
+    justify-content: center;
+}
+.column_main_expirience_wrapper_card {
+    width: 350px;
+    height: 213px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.column_main_expirience_wrapper :hover {
+    background-color: orange;
+}
+
+.column_main_expirience_wrapper_card img {
+    width: 100%;
+
+}
+.column_main_subheader {
+
+    text-align: center;
+}
+.column_main_subheader a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+
+.footer_wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 10px solid orange;
+    background-color: #708090;
+    padding: 10px;
+
+}
+.footer_link :hover {
+    background-color: orange;
+}
