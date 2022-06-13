@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     font-family: Oxygen-Light;
+    
+}
+body {
+    background-color: orange;
 }
 
 .container {
@@ -92,7 +96,7 @@ p {
 
 .column_main_expirience_wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .column_main_expirience_wrapper_card {
     width: 350px;
@@ -118,9 +122,7 @@ p {
     color: black;
     text-align: center;
 }
-.column_main_subheader :hover {
-   /*  color: orange */;
-}
+
 
 .footer_wrapper {
     display: flex;
