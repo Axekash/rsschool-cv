@@ -130,6 +130,10 @@ p {
     padding-bottom: 30px;
 }
 
+.column_main_code code{
+    font-size: 20px;
+}
+
 .column_main_expirience_wrapper {
     display: flex;
     justify-content: center;
@@ -171,4 +175,16 @@ p {
 }
 .footer_link :hover {
     background-color: orange;
+}
+.footer_github_img {
+    width: 50px; 
+    height: 50px;
+}
+.footer_mail_img {
+    width: 100px;
+    height: 50px;
+}
+.footer_rsschool_img {
+    width: 100px; 
+    height: 50px;
 }
